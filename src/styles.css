@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Trick */
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  min-height: 50px;
+  background: lightcyan;
+}
+footer {
+  min-height: 50px;
+  background: PapayaWhip;
+}
+
+footer {
+  margin-top: auto;
+}
